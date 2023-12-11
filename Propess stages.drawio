@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T06:31:28.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="2qIECe2xDZXhrY1knVM-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T06:38:15.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dABnbgtPoceMZbHwdyPM" version="22.1.7" type="github">
   <diagram name="Page-1" id="KRgfPVD7SuZN9SCqlESB">
-    <mxGraphModel>
+    <mxGraphModel dx="1900" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sNrHL4kb1x2L5cmtK217-1" value="Noise attenuation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-3" value="Baseline removing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-4" value="Peak and trough detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-5" value="Absolute and Relative Artifact Detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-6" value="Relative Artifact Detection between two adjacent waves" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-7" value="Metric Calculation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-8" value="raw signal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="52.5" width="21.25" height="306.25" as="geometry" />
+        </mxCell>
+        <mxCell id="sNrHL4kb1x2L5cmtK217-10" value="Pre-processing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="108.13" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
