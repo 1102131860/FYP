@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T06:44:58.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RQwcauOQHw5cAfkZIgpR" version="24.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-09T06:46:41.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="vvtfQWIiESjqTqbOAjcC" version="24.2.2" type="github" pages="3">
   <diagram name="Page-1" id="KRgfPVD7SuZN9SCqlESB">
     <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JEE8gU2_Re8JOkx9UA2t-1" value="Noise attenuation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="120" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JEE8gU2_Re8JOkx9UA2t-2" value="Baseline removing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="171.25" y="120" width="120" height="60" as="geometry" />
