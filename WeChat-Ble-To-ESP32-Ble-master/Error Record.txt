@@ -1,0 +1,3 @@
+MiniProgramError
+Cannot read property 'setOption' of undefined
+TypeError: Cannot read property 'setOption' of undefined

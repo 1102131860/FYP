@@ -1,0 +1,22 @@
+<view class="container">
+  <text style="font-size:medium;word-break:break-all">Device Name: {{name}}</text>
+  <text style="font-size:x-small;color:gray;word-break:break-all">Device ID: {{connectedDeviceId}}</text>
+  <text style="font-size:x-small;color:gray">State: {{connected?"Connected":"Unconnected"}}</text>
+
+  <text style="font-size:medium;margin-top:10px">Heart Rhythm: </text>
+  <textarea class="res" maxlength="-1" disabled value="{{buffer[0].value}}" />
+  <text> \n </text>
+
+  <!-- <text style="font-size:medium;margin-top:10px">Send content: </text>
+  <input class="input" value="{{inputText}}" bindinput="bindInput" maxlength="20"/> -->
+
+  <!-- <view class="wrap">
+    <ec-canvas id="mychart" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+  </view> -->
+
+  <!-- <button type="primary" class="li" bind:tap="line">Line Graph</button> -->
+  <button type="primary" class="buttonOffConnect" bind:tap="closeBLEConnection">Close Connection</button>
+  <button type="primary" class="buttonOff" bind:tap="offNotify">Shut Down Notify</button>
+  <button type="primary" class="button" bind:tap="StartNotify">Turn On Notify</button>
+  <!-- <button type="primary" class="button" bindtap="Send">Send</button> -->
+</view>
