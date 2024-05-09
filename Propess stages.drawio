@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T07:31:34.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4FUJJqnl0y1WE4g3Td8f" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-05-09T04:45:41.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TVjfmbK3Q3EGesPlxOSP" version="24.3.1" type="github" pages="7">
   <diagram name="Page-1" id="KRgfPVD7SuZN9SCqlESB">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -392,20 +392,62 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9vFCCc-K1s11PCWK2PEu-2" value="Calculate mean value μ = mean(X)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-2" value="Mean calculation&lt;br&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mfrac&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mspace width=&quot;thinmathspace&quot;&gt;&lt;/mspace&gt;&lt;/mrow&gt;&lt;/math&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9vFCCc-K1s11PCWK2PEu-4" value="Input raw data buffer X with a length of n" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="180" width="120" height="80" as="geometry" />
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-4" value="raw vector&lt;div&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;&lt;b&gt;X&lt;/b&gt;&lt;/mi&gt;&lt;mn&gt;&lt;b&gt;0&lt;/b&gt;&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;mspace width=&quot;thinmathspace&quot;&gt;&lt;/mspace&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9vFCCc-K1s11PCWK2PEu-6" value="Invert X&lt;br&gt;X&#39; = 2μ - X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-6" value="Inversion&lt;br style=&quot;font-size: 18px;&quot;&gt;X&lt;sub&gt;1&lt;/sub&gt; = 2μ - X&lt;sub&gt;0&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="390" y="190" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9vFCCc-K1s11PCWK2PEu-7" value="Remove DC component&lt;br&gt;X&#39;&#39; = X&#39; - μ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="190" width="140" height="60" as="geometry" />
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-7" value="DC component&lt;br style=&quot;font-size: 18px;&quot;&gt;X&lt;sub&gt;2&lt;/sub&gt; = X&lt;sub&gt;1&lt;/sub&gt; - μ" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="600" y="185" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9vFCCc-K1s11PCWK2PEu-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-8" value="Median filter&lt;div&gt;X&lt;sub&gt;3&lt;/sub&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="810" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-9" value="mean vector&lt;br&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi&gt;&lt;b&gt;μ&lt;/b&gt;&lt;/mi&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;mspace width=&quot;thinmathspace&quot;&gt;&lt;/mspace&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;fontStyle=1;fontSize=18;" edge="1" parent="1" source="9vFCCc-K1s11PCWK2PEu-9" target="9vFCCc-K1s11PCWK2PEu-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="250" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;fontSize=18;" edge="1" parent="1" source="9vFCCc-K1s11PCWK2PEu-6" target="9vFCCc-K1s11PCWK2PEu-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="200" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-15" value="Inverted raw data buffer X&#39;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;fontSize=18;" edge="1" parent="1" target="9vFCCc-K1s11PCWK2PEu-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="220" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="9vFCCc-K1s11PCWK2PEu-9" target="9vFCCc-K1s11PCWK2PEu-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="240" as="sourcePoint" />
+            <mxPoint x="540" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9vFCCc-K1s11PCWK2PEu-7" target="9vFCCc-K1s11PCWK2PEu-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="240" as="sourcePoint" />
+            <mxPoint x="640" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-20" value="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;/msup&gt;&lt;/math&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="360" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9vFCCc-K1s11PCWK2PEu-21" value="&amp;lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&amp;gt;&amp;lt;msup&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mi&amp;gt;N&amp;lt;/mi&amp;gt;&amp;lt;/msup&amp;gt;&amp;lt;/math&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
