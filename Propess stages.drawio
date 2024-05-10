@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T14:01:43.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="eGZ4WX8fRGruS7U0ZhDd" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-10T14:05:38.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="YuRvJr8ktohqr15A3fBY" version="24.3.1" type="github" pages="9">
   <diagram name="Page-1" id="KRgfPVD7SuZN9SCqlESB">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -889,7 +889,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f0g2-qgCUGeSIsLFNHmR" name="Page-9">
-    <mxGraphModel dx="1250" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -923,7 +923,7 @@
         <mxCell id="QprM6GK0AHZBXNiPB3Px-8" value="Pulse Waveform Amplitude&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;ω&lt;/mi&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;=&lt;/mo&gt;&lt;msub style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;x&lt;/mi&gt;&lt;msub style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;ϕ&lt;/mi&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/msub&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;-&lt;/mo&gt;&lt;msub style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;x&lt;/mi&gt;&lt;msub style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;ψ&lt;/mi&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;j&lt;/mi&gt;&lt;/msub&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/math&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1375.01" y="600" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QprM6GK0AHZBXNiPB3Px-9" value="adjacent PWA ratio is larger than amplitude threshold&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow style=&quot;font-size: 18px;&quot;&gt;&lt;mrow style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;ω&lt;/mi&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;/&lt;/mo&gt;&lt;msup style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;ω&lt;/mi&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;&amp;gt;&lt;/mo&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;β&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="QprM6GK0AHZBXNiPB3Px-9" value="adjacent PWA ratio is larger than &lt;font color=&quot;#00ff00&quot;&gt;amplitude threshold&lt;/font&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow style=&quot;font-size: 18px;&quot;&gt;&lt;mrow style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;ω&lt;/mi&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;/&lt;/mo&gt;&lt;msup style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;ω&lt;/mi&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;&amp;gt;&lt;/mo&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;β&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1265.01" y="700" width="470" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QprM6GK0AHZBXNiPB3Px-10" value="update valley iterator&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow style=&quot;font-size: 18px;&quot;&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;j&lt;/mi&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;=&lt;/mo&gt;&lt;mi style=&quot;font-size: 18px;&quot;&gt;j&lt;/mi&gt;&lt;mo style=&quot;font-size: 18px;&quot;&gt;+&lt;/mo&gt;&lt;mn style=&quot;font-size: 18px;&quot;&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/math&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;" vertex="1" parent="1">
@@ -1036,6 +1036,36 @@
             <mxPoint x="1660" y="390" as="sourcePoint" />
             <mxPoint x="1710" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZjpL4wZI2WhdgO2caHMh-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="990" y="215" width="1190" height="685" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjpL4wZI2WhdgO2caHMh-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=8 8;strokeWidth=3;strokeColor=#00FF00;" edge="1" parent="ZjpL4wZI2WhdgO2caHMh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="670" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZjpL4wZI2WhdgO2caHMh-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=8 8;strokeWidth=3;strokeColor=#00FF00;" edge="1" parent="ZjpL4wZI2WhdgO2caHMh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="5" as="sourcePoint" />
+            <mxPoint y="5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZjpL4wZI2WhdgO2caHMh-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=8 8;strokeWidth=3;strokeColor=#00FF00;" edge="1" parent="ZjpL4wZI2WhdgO2caHMh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="675" as="sourcePoint" />
+            <mxPoint x="1190" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZjpL4wZI2WhdgO2caHMh-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=8 8;strokeWidth=3;strokeColor=#00FF00;" edge="1" parent="ZjpL4wZI2WhdgO2caHMh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="685" as="sourcePoint" />
+            <mxPoint x="1190" y="5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZjpL4wZI2WhdgO2caHMh-9" value="&lt;b&gt;&lt;font color=&quot;#00ff00&quot; style=&quot;font-size: 24px;&quot;&gt;Amplitude threshold&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZjpL4wZI2WhdgO2caHMh-10">
+          <mxGeometry x="890" y="35" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
